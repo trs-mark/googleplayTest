@@ -41,10 +41,10 @@
     	<tool-api-level>8</tool-api-level>
     	<manifest android:installLocation="auto">
     		<uses-sdk android:minSdkVersion="7" />
-    		<uses-permission android:name="com.android.vending.BILLIN" />
+    		<uses-permission android:name="com.android.vending.BILLING"/>
     		<application>
-    			<service android:name="com.android.vending.BILLING"></service>
-    			<receiver android:name="ti.inappbilling.BillingReceiver">
+    			<service android:name="ti.inappbilling.BillingService"/>
+				<receiver android:name="ti.inappbilling.BillingReceiver">
     				<intent-filter>
     					<action android:name="com.android.vending.billing.IN_APP_NOTIFY" />
     					<action android:name="com.android.vending.billing.RESPONSE_CODE" />
