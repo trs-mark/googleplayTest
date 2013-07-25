@@ -1,20 +1,11 @@
 Logfile initialized
 [INFO] logfile = /Users/tokikawateppei/Documents/Titanium_Studio_Workspace/googleplayTest/build.log
-[DEBUG] /Users/tokikawateppei/Library/Application Support/Titanium/mobilesdk/osx/2.1.4.GA/android/builder.py distribute googleplayTest /Users/tokikawateppei/Documents/androidSDK /Users/tokikawateppei/Documents/Titanium_Studio_Workspace/googleplayTest com.trd.googleplay.test /Users/tokikawateppei/Documents/Project Kakeizu/GOOGLEplay/generating keys/android.keystoree trd0531 googleplaytest /Users/tokikawateppei/Documents/Project Kakeizu/GOOGLEplay/generating keys 2
+[DEBUG] /Users/tokikawateppei/Library/Application Support/Titanium/mobilesdk/osx/2.1.4.GA/android/builder.py distribute googleplayTest /Users/tokikawateppei/Documents/androidSDK /Users/tokikawateppei/Documents/Titanium_Studio_Workspace/googleplayTest com.trd.googleplay.test /Users/tokikawateppei/Documents/ProjectKakeizu/GOOGLEplay/generatingKeysSample/android.keystoree trd0531 googleplaytest /Users/tokikawateppei/Documents/ProjectKakeizu/GOOGLEplay/ 2
 [INFO] Titanium SDK version: 2.1.4 (11/09/12 12:46 51f2c64)
 [INFO] Copying CommonJS modules...
 [INFO] Copying project resources..
-[INFO] Detected change in tiapp.xml, or assets deleted. Forcing full re-build...
-[TRACE] COPYING CREATED FILE: /Users/tokikawateppei/Documents/Titanium_Studio_Workspace/googleplayTest/Resources/1.js => /Users/tokikawateppei/Documents/Titanium_Studio_Workspace/googleplayTest/build/android/bin/assets/Resources/1.js
-[TRACE] COPYING CREATED FILE: /Users/tokikawateppei/Documents/Titanium_Studio_Workspace/googleplayTest/Resources/2.js => /Users/tokikawateppei/Documents/Titanium_Studio_Workspace/googleplayTest/build/android/bin/assets/Resources/2.js
-[TRACE] COPYING CREATED FILE: /Users/tokikawateppei/Documents/Titanium_Studio_Workspace/googleplayTest/Resources/android/appicon.png => /Users/tokikawateppei/Documents/Titanium_Studio_Workspace/googleplayTest/build/android/bin/assets/Resources/appicon.png
-[TRACE] COPYING CREATED FILE: /Users/tokikawateppei/Documents/Titanium_Studio_Workspace/googleplayTest/Resources/android/default.png => /Users/tokikawateppei/Documents/Titanium_Studio_Workspace/googleplayTest/build/android/bin/assets/Resources/default.png
-[TRACE] COPYING CREATED FILE: /Users/tokikawateppei/Documents/Titanium_Studio_Workspace/googleplayTest/Resources/app.js => /Users/tokikawateppei/Documents/Titanium_Studio_Workspace/googleplayTest/build/android/bin/assets/Resources/app.js
-[TRACE] COPYING CREATED FILE: /Users/tokikawateppei/Documents/Titanium_Studio_Workspace/googleplayTest/Resources/KS_nav_ui.png => /Users/tokikawateppei/Documents/Titanium_Studio_Workspace/googleplayTest/build/android/bin/assets/Resources/KS_nav_ui.png
-[TRACE] COPYING CREATED FILE: /Users/tokikawateppei/Documents/Titanium_Studio_Workspace/googleplayTest/Resources/KS_nav_views.png => /Users/tokikawateppei/Documents/Titanium_Studio_Workspace/googleplayTest/build/android/bin/assets/Resources/KS_nav_views.png
 [TRACE] Generating Java Classes
 [DEBUG] Processing Android resource drawables
-[DEBUG] app stylesheet => /Users/tokikawateppei/Documents/Titanium_Studio_Workspace/googleplayTest/build/android/gen/com/trd/googleplay/test/ApplicationStylesheet.java
 [DEBUG] copying app icon: /Users/tokikawateppei/Documents/Titanium_Studio_Workspace/googleplayTest/build/android/bin/assets/Resources/appicon.png
 [DEBUG] generating theme.xml
 [DEBUG] found drawable-long-land-hdpi splash screen at /Users/tokikawateppei/Documents/Titanium_Studio_Workspace/googleplayTest/Resources/android/images/res-long-land-hdpi/default.png
@@ -39,13 +30,12 @@ Logfile initialized
 [DEBUG] copying /Users/tokikawateppei/Documents/Titanium_Studio_Workspace/googleplayTest/Resources/android/images/res-notlong-port-mdpi/default.png splash screen to /Users/tokikawateppei/Documents/Titanium_Studio_Workspace/googleplayTest/build/android/res/drawable-notlong-port-mdpi/background.png
 [DEBUG] found splash screen at /Users/tokikawateppei/Documents/Titanium_Studio_Workspace/googleplayTest/build/android/bin/assets/Resources/default.png
 [TRACE] Writing out AndroidManifest.xml
-[DEBUG] adding /Users/tokikawateppei/Documents/Titanium_Studio_Workspace/googleplayTest/build/android/gen/com/trd/googleplay/test/ApplicationStylesheet.java to javac build list
 [DEBUG] adding /Users/tokikawateppei/Documents/Titanium_Studio_Workspace/googleplayTest/build/android/gen/com/trd/googleplay/test/AssetCryptImpl.java to javac build list
 [DEBUG] adding /Users/tokikawateppei/Documents/Titanium_Studio_Workspace/googleplayTest/build/android/gen/com/trd/googleplay/test/GoogleplaytestActivity.java to javac build list
 [DEBUG] adding /Users/tokikawateppei/Documents/Titanium_Studio_Workspace/googleplayTest/build/android/gen/com/trd/googleplay/test/GoogleplaytestAppInfo.java to javac build list
 [DEBUG] adding /Users/tokikawateppei/Documents/Titanium_Studio_Workspace/googleplayTest/build/android/gen/com/trd/googleplay/test/GoogleplaytestApplication.java to javac build list
 [DEBUG] adding /Users/tokikawateppei/Documents/Titanium_Studio_Workspace/googleplayTest/build/android/gen/com/trd/googleplay/test/R.java to javac build list
-[DEBUG] Building Java Sources: "/Users/tokikawateppei/Documents/Titanium_Studio_Workspace/googleplayTest/build/android/gen/com/trd/googleplay/test/ApplicationStylesheet.java" "/Users/tokikawateppei/Documents/Titanium_Studio_Workspace/googleplayTest/build/android/gen/com/trd/googleplay/test/AssetCryptImpl.java" "/Users/tokikawateppei/Documents/Titanium_Studio_Workspace/googleplayTest/build/android/gen/com/trd/googleplay/test/GoogleplaytestActivity.java" "/Users/tokikawateppei/Documents/Titanium_Studio_Workspace/googleplayTest/build/android/gen/com/trd/googleplay/test/GoogleplaytestAppInfo.java" "/Users/tokikawateppei/Documents/Titanium_Studio_Workspace/googleplayTest/build/android/gen/com/trd/googleplay/test/GoogleplaytestApplication.java" "/Users/tokikawateppei/Documents/Titanium_Studio_Workspace/googleplayTest/build/android/gen/com/trd/googleplay/test/R.java"
+[DEBUG] Building Java Sources: "/Users/tokikawateppei/Documents/Titanium_Studio_Workspace/googleplayTest/build/android/gen/com/trd/googleplay/test/AssetCryptImpl.java" "/Users/tokikawateppei/Documents/Titanium_Studio_Workspace/googleplayTest/build/android/gen/com/trd/googleplay/test/GoogleplaytestActivity.java" "/Users/tokikawateppei/Documents/Titanium_Studio_Workspace/googleplayTest/build/android/gen/com/trd/googleplay/test/GoogleplaytestAppInfo.java" "/Users/tokikawateppei/Documents/Titanium_Studio_Workspace/googleplayTest/build/android/gen/com/trd/googleplay/test/GoogleplaytestApplication.java" "/Users/tokikawateppei/Documents/Titanium_Studio_Workspace/googleplayTest/build/android/gen/com/trd/googleplay/test/R.java"
 [INFO] Compiling Android Resources... This could take some time
 [DEBUG] Android classes.dex built
 [DEBUG] creating unsigned apk: /Users/tokikawateppei/Documents/Titanium_Studio_Workspace/googleplayTest/build/android/bin/app-unsigned.apk
